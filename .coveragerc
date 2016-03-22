@@ -1,0 +1,13 @@
+# .coveragerc to control coverage.py for the package
+[run]
+branch = True
+source = demo.src
+omit =
+    */test/*
+    */__init__.py
+
+#[report]
+#exclude_lines =
+#    __name__
+#omit = */test/*
+
