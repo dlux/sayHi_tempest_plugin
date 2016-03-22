@@ -84,6 +84,10 @@ Run test cases
 
   $ testr run --subunit smoke | subunit-1to2 | subunit-trace --color -n
 
+.. code-block:: bash
+
+  $ ./tempest/run_tempest.sh demo_tempest_plugin.tests.api.test_int_sayhi.TestSayHiInt.test_hi -N
+
 Other Resources
 ------
 
