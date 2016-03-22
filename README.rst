@@ -56,6 +56,7 @@ To install say hi plugin
 Initialize Tempest
 
 .. code-block:: bash
+
   # Initialize Tempest
   $ cd tempest
   $ testr init
@@ -80,6 +81,7 @@ Run test cases
   $ testr run demo_tempest_plugin.tests.api.test_int_sayhi.TestSayHiInt.test_hi
 
 .. code-block:: bash
+
   $ testr run --subunit smoke | subunit-1to2 | subunit-trace --color -n
 
 Other Resources
@@ -103,5 +105,3 @@ http://docs.openstack.org/developer/tempest/plugin.html
 http://docs.openstack.org/developer/oslo.config/cfg.html
 
 http://specs.openstack.org/openstack/qa-specs/specs/tempest/tempest-external-plugin-interface.html
-
-
