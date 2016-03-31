@@ -13,12 +13,12 @@ Package Structure
 
   say_hi_tempest_plugin
   ├── demo                              ──┐
-  │   ├── __init__.py                     |
-  │   ├── src                             |
-  │   │   ├── __init__.py                 |── Simple say_hi package structure
-  │   │   ├── say_hi.py                   | 
-  │   └── tests                           |
-  │       ├── __init__.py                 |
+  │   ├── __init__.py                     │
+  │   ├── src                             │
+  │   │   ├── __init__.py                 │── Simple say_hi package structure
+  │   │   ├── say_hi.py                   │ 
+  │   └── tests                           │
+  │       ├── __init__.py                 │
   │       └── test_sayhi.py             ──┘
   ├── demo_tempest_plugin
   │   ├── config.py                     <─ Configuration Options to be register
@@ -26,10 +26,10 @@ Package Structure
   │   ├── plugin.py                     <─ Actual tempest plugin, Registration method of options and groups
   │   └── tests                         <─ Integration Test Cases for the program
   │       ├── api                       ──┐
-  │       │   ├── base.py                 |
-  │       │   ├── __init__.py             |── Integration Test Cases(optional structure)
-  │       │   └── test_int_sayhi.py       |
-  │       ├── scenario                    |
+  │       │   ├── base.py                 │
+  │       │   ├── __init__.py             │── Integration Test Cases(optional structure)
+  │       │   └── test_int_sayhi.py       │
+  │       ├── scenario                    │
   │       └── __init__.py               ──┘ 
   ├── LICENSE
   ├── README.rst
